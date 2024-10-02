@@ -244,7 +244,7 @@ public:
       TDynamicMatrix<T> res(sz);  
       for (size_t i = 0; i < sz; i++) {
           for (size_t j = 0; j < sz; j++) {
-              result[i][j] = this->pMem[i][j] * val;  
+              res[i][j] = this->pMem[i][j] * val;  
           }
       }
       return res;
